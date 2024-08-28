@@ -1,10 +1,3 @@
-<!--
- * @Author: wzdnzd
- * @Date: 2022-03-06 14:51:29
- * @Description: 
- * Copyright (c) 2022 by wzdnzd, All Rights Reserved.
--->
-
 ## 功能
 打造免费代理池，爬一切可爬节点
 > 拥有灵活的插件系统，如果目标网站特殊，现有功能未能覆盖，可针对性地通过插件实现
