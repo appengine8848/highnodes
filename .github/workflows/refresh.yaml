@@ -2,8 +2,7 @@ name: Generate and Commit File
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # 每天中午12点跑一次
-  workflow_dispatch: # 允许手动触发
+    - cron: '0 */6 * * *'
 
 jobs:
   build-and-commit:
