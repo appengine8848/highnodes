@@ -1,7 +1,13 @@
 https://ch.louwangzhiyu.xyz/api/v1/client/subscribe?token=87ded92764c7692cc719073cb05bcd9e
 https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=9356a527cc5e8f3be456f842b7f1fb90
-https://dl.vfkum.website/api/v1/client/subscribe?token=ea0cd5a42028eaa1c8a5271bf4985361
+https://ch.cukug.website/api/v1/client/subscribe?token=f9a62690b6a98837da460bdc570d8b10
+https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=9f5ae9ed22a0880619e94dcc862d7e4f
+https://dashuai.us/api/v1/client/subscribe?token=d11fe51ffbcf24f0112a435fb5182bd3
 https://ch.cukug.website/api/v1/client/subscribe?token=d6feee42f4c12dab3b5c999648673613
-https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=d30c2e380e1eec60f1e5b2efd297faec
-https://dashuai.us/api/v1/client/subscribe?token=12c3276f261eba14f16b88afbcdd1e19
 https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=0ddbab26582521ee05499b94e7919d44
+https://vt.louwangzhiyu.xyz/api/v1/client/subscribe?token=fb2de6f5c13f3f7b7081370001eb18df
+https://loopycloud.ggff.net/api/v1/client/subscribe?token=6efd6a99a27d9b12b68ffc063441a9c5
+https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=d30c2e380e1eec60f1e5b2efd297faec
+https://loopycloud.dpdns.org/api/v1/client/subscribe?token=655f9e7ee38dcaa45b12040db98982fc
+https://dl.vfkum.website/api/v1/client/subscribe?token=789643c2d9b9ce9b74090636d3b31e6a
+https://dl.vfkum.website/api/v1/client/subscribe?token=ea0cd5a42028eaa1c8a5271bf4985361
