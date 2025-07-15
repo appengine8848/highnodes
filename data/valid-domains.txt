@@ -1,8 +1,7 @@
-https://qingyun.zybs.eu.org
-https://ch.cukug.website
-https://ch.louwangzhiyu.xyz
-https://vt.louwangzhiyu.xyz
-https://dashuai.us
 https://loopycloud.ggff.net
-https://loopycloud.dpdns.org
+https://qingyun.zybs.eu.org
+https://ch.louwangzhiyu.xyz
+https://dashuai.us
+https://ch.cukug.website
 https://dl.vfkum.website
+https://loopycloud.dpdns.org
