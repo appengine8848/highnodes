@@ -21,6 +21,8 @@ import warnings
 from copy import deepcopy
 from multiprocessing.managers import ListProxy
 from multiprocessing.synchronize import Semaphore
+import threading
+file_lock = threading.Lock()  # 文件写入锁
 
 import yaml
 
@@ -112,7 +114,7 @@ def convert(chars: bytes, filepath: str = "", persist: bool = False, includes: s
         return []
 
 
-def parse_v2ray(node: dict, uuid: str) -> dict:
+def parse_v2ray(node: dict, uuid: str) -> typing.Optional[dict]:
     if not uuid:
         return None
 
@@ -125,6 +127,8 @@ def parse_v2ray(node: dict, uuid: str) -> dict:
     }
 
     server = node.get("server")
+    if not server:
+        return None
     if "tls" in server:
         print("tls: {}".format(server))
 
@@ -143,7 +147,7 @@ def parse_v2ray(node: dict, uuid: str) -> dict:
     if len(items) > 5:
         obfs = items[5]
         opts = {}
-        if obfs != None and obfs.strip() != "":
+        if obfs is not None and obfs.strip() != "":
             for s in obfs.split("|"):
                 words = s.split("=")
                 if len(words) != 2:
@@ -166,7 +170,7 @@ def parse_v2ray(node: dict, uuid: str) -> dict:
     return result
 
 
-def parse_ssr(node: dict, user: dict) -> dict:
+def parse_ssr(node: dict, user: dict) -> typing.Optional[dict]:
     host = ""
     port = int(user["port"])
 
@@ -224,7 +228,7 @@ def parse_ssr(node: dict, user: dict) -> dict:
     return item
 
 
-def parse(node: dict, uuid: str, user: dict = None, includes: str = "all") -> dict:
+def parse(node: dict, uuid: str, user: dict = None, includes: str = "all") -> typing.Optional[dict]:
     def get_protocal(num: int) -> str:
         if num in [0, 10, 13]:
             return "ssr"
@@ -324,7 +328,7 @@ def get_cookie(text) -> str:
     return cookie
 
 
-def fetch_nodes(domain: str, email: str, passwd: str, headers: dict = None, retry: int = 3) -> bytes:
+def fetch_nodes(domain: str, email: str, passwd: str, headers: dict = None, retry: int = 3) -> typing.Optional[bytes]:
     headers = deepcopy(HEADER) if not headers else headers
     login_url = domain + "/auth/login"
     headers["origin"] = domain
@@ -410,7 +414,7 @@ def scan(domain: str, file: str, args: argparse.Namespace) -> None:
     # 获取机场所有节点信息
     content = fetch_nodes(domain, args.email, args.passwd)
     filepath = os.path.join(args.path, "{}.json".format(domain.split("/")[2]))
-    nodes = convert(content, filepath, args.keep, args.type)
+    nodes = convert(content, filepath, args.keep, args.type) if content is not None else []
     if not nodes:
         return
 
@@ -622,6 +626,10 @@ def validate_domain(url: str, availables: ListProxy, semaphore: Semaphore) -> No
             return
 
         availables.append(url)
+        # 新增：写入有效机场到文件
+        with file_lock:
+            with open(os.path.join(PATH, "../data/valid-domains.txt"), "a", encoding="utf-8") as f:
+                f.write(url.strip() + "\n")
     finally:
         if semaphore is not None and isinstance(semaphore, Semaphore):
             semaphore.release()
