@@ -1,192 +1,142 @@
 proxies:
-  - {name: 🇹🇼 NETFLIX01 TW-1B, server: cm33-zz.moonwang.xyz, port: 48444, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1A, server: 45.136.245.177, port: 33079, type: hysteria2, password: 82f83138-4eaf-433b-9ba8-13bca18ffca2, auth: 82f83138-4eaf-433b-9ba8-13bca18ffca2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇩 印度尼西亚-1C, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡01 专线-1A, server: cm22-zz.moonwang.xyz, port: 40013, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇯🇵 日本2-1C, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 61610dbd-2183-416d-be25-6d92839a3c10, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡-1B, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5ad26462-53ac-4423-8f16-b42ce17c211e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本03 专线-1A, server: cm33-zz.moonwang.xyz, port: 18443, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1E, server: 45.136.245.177, port: 33079, type: hysteria2, password: fb9cb629-e5a0-4669-8b6a-728e118e34c0, auth: fb9cb629-e5a0-4669-8b6a-728e118e34c0, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
-  - {name: 🇺🇸 美国07 国外专用-1A, server: us5.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇩🇪 德国, server: nexiadg.688997.xyz, port: 20557, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiadg.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
-  - {name: 🇭🇰 香港04 专线-1B, server: cm33-zz.moonwang.xyz, port: 48443, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1C, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 333ef60f-4e78-4f1d-ae3c-b184e25fbf02, udp: true}
-  - {name: 🇺🇸 美国04 专线-1A, server: cm22-zz.moonwang.xyz, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇺🇸 美国-纽约-001-1D, server: 45.136.245.177, port: 22085, type: vmess, uuid: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国06 国外专用-1B, server: us4.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇷🇺 俄罗斯, server: nexiaels.688997.xyz, port: 20757, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiaels.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
-  - {name: 🇯🇵 日本01 专线-1A, server: cm33-zz.moonwang.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇭 泰国-1A, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
-  - {name: 🇭🇰 香港-1B, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
-  - {name: 🇯🇵 日本2-1A, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
-  - {name: 🇯🇵 日本01 专线-1B, server: cm33-zz.moonwang.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇺🇸 美国-纽约-001-1B, server: 45.136.245.177, port: 22085, type: vmess, uuid: 425c69fa-5645-4981-a22f-ad8e50e8f191, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇸🇬 新加坡-1D, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
-  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡01 专线-1B, server: cm22-zz.moonwang.xyz, port: 40013, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1D, server: 45.136.245.177, port: 33079, type: hysteria2, password: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, auth: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
-  - {name: 🇺🇸 美国03 专线-1A, server: cu1-zz.moonwang.xyz, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇭 泰国-1B, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: eb7ac1e8-7023-420e-973d-f9860bd394ed, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1C, server: 45.136.245.177, port: 80, type: hysteria2, password: 8a97c179-1fb1-45a3-9c32-4a378de088a6, auth: 8a97c179-1fb1-45a3-9c32-4a378de088a6, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ%3D%3D, udp: true}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-003-1A, server: 45.136.245.177, port: 25017, type: vmess, uuid: 82f83138-4eaf-433b-9ba8-13bca18ffca2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港-线路1-1A, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 6711d5b4-a301-4133-974d-fbe38bc73b04, udp: true}
-  - {name: 🇭🇰 香港2-1D, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
-  - {name: 🇯🇵 日本2-1B, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
-  - {name: 🇭🇰 香港-1D, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
-  - {name: 🇭🇰 NETFLIX03 HK-1B, server: cu1-zz.moonwang.xyz, port: 38445, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a62b3af2-306b-4993-b330-142b2195eec9, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-线路1-1J, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 3eb1c9dd-5ca6-4060-8e4d-dc10aabf2b2f, udp: true}
-  - {name: 🇺🇸 美国02 专线-1A, server: cm22-zz.moonwang.xyz, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇭🇰 香港-1C, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1L, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: e7435976-0cf9-4f98-9e4e-8f082c93ddcd, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1T, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 720e75ae-a4cf-4270-9097-77d319cd1f9b, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1B, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 50c653e0-c40b-40a6-9bf6-47073479f090, udp: true}
-  - {name: 🇺🇸 美国-纽约-001-1A, server: 45.136.245.177, port: 22085, type: vmess, uuid: 82f83138-4eaf-433b-9ba8-13bca18ffca2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港04 专线-1A, server: cm33-zz.moonwang.xyz, port: 48443, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇹🇷 土耳其, server: nexiateq.688997.xyz, port: 20957, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiateq.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1S, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 95024ebc-21b7-413f-b49d-a6a7b482a2a4, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国-纽约-HY-001-1C, server: 45.136.245.177, port: 31008, type: hysteria2, password: 8a97c179-1fb1-45a3-9c32-4a378de088a6, auth: 8a97c179-1fb1-45a3-9c32-4a378de088a6, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
-  - {name: 🇸🇬 新加坡-1A, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1F, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 8838cf92-a25a-41c7-a4d0-864b3df251bd, udp: true}
-  - {name: 🇭🇰 香港02 专线-1B, server: cm33-zz.moonwang.xyz, port: 48446, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1B, server: 45.136.245.177, port: 33079, type: hysteria2, password: 425c69fa-5645-4981-a22f-ad8e50e8f191, auth: 425c69fa-5645-4981-a22f-ad8e50e8f191, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
-  - {name: 🇹🇼 台湾01 专线-1B, server: cm22-zz.moonwang.xyz, port: 34111, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1I, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 63c88f95-a8a9-41a7-a872-b67a43f8e994, udp: true}
-  - {name: 🇸🇬 新加坡-1C, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
-  - {name: 🇯🇵 日本02 专线-1A, server: cm33-zz.moonwang.xyz, port: 28444, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇭🇰 香港03 专线-1A, server: cm22-zz.moonwang.xyz, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇺🇸 美国-纽约-001-1E, server: 45.136.245.177, port: 22085, type: vmess, uuid: fb9cb629-e5a0-4669-8b6a-728e118e34c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-003-1D, server: 45.136.245.177, port: 25017, type: vmess, uuid: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-003-1C, server: 45.136.245.177, port: 25017, type: vmess, uuid: 8a97c179-1fb1-45a3-9c32-4a378de088a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-002-1D, server: 45.136.245.177, port: 23133, type: vmess, uuid: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇯🇵 日本2-1D, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
-  - {name: 🇭🇰 香港-线路1-1L, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: e7435976-0cf9-4f98-9e4e-8f082c93ddcd, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1N, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 99d6c1b4-5e4f-4eac-8fb1-b3fc7f0dc799, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇭 泰国-1D, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
-  - {name: 🇺🇸 美国-纽约-HY-001-1E, server: 45.136.245.177, port: 31008, type: hysteria2, password: fb9cb629-e5a0-4669-8b6a-728e118e34c0, auth: fb9cb629-e5a0-4669-8b6a-728e118e34c0, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
-  - {name: 🇭🇰 香港-线路1-1H, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: e887ef41-9bad-4e68-8181-b47ac351b2b1, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c49fc220-6703-4a90-9524-5b0c18e191af, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-002-1C, server: 45.136.245.177, port: 23133, type: vmess, uuid: 8a97c179-1fb1-45a3-9c32-4a378de088a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-003-1E, server: 45.136.245.177, port: 25017, type: vmess, uuid: fb9cb629-e5a0-4669-8b6a-728e118e34c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1B, server: 45.136.245.177, port: 80, type: hysteria2, password: 425c69fa-5645-4981-a22f-ad8e50e8f191, auth: 425c69fa-5645-4981-a22f-ad8e50e8f191, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ%3D%3D, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1P, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5cb67c63-a08a-48ea-b698-2a07a2a24a22, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1J, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 3eb1c9dd-5ca6-4060-8e4d-dc10aabf2b2f, udp: true}
-  - {name: 🇸🇬 新加坡2-1B, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1D, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 651cf023-0122-4796-acad-b1a5706eaa75, udp: true}
-  - {name: 🇺🇸 美国01 专线-1A, server: cm22-zz.moonwang.xyz, port: 40002, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡2-1C, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
-  - {name: 🇸🇬 新加坡2-1A, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1G, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: cc664d2b-4eb6-4127-9846-7bc8806b42e4, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1A, server: 45.136.245.177, port: 80, type: hysteria2, password: 82f83138-4eaf-433b-9ba8-13bca18ffca2, auth: 82f83138-4eaf-433b-9ba8-13bca18ffca2, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ%3D%3D, udp: true}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1U, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 027272c0-b599-4239-a7cb-e938102a17ae, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇧🇷 巴西, server: nexiabx.688997.xyz, port: 20857, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiabx.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1E, server: 45.136.245.177, port: 80, type: hysteria2, password: fb9cb629-e5a0-4669-8b6a-728e118e34c0, auth: fb9cb629-e5a0-4669-8b6a-728e118e34c0, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ%3D%3D, udp: true}
-  - {name: 🇭🇰 香港-线路1-1C, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 333ef60f-4e78-4f1d-ae3c-b184e25fbf02, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-002-1B, server: 45.136.245.177, port: 23133, type: vmess, uuid: 425c69fa-5645-4981-a22f-ad8e50e8f191, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1D, server: 45.136.245.177, port: 80, type: hysteria2, password: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, auth: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ%3D%3D, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 93efcec1-07a6-4ea6-ba14-5c98cb9f90e9, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国1-1D, server: ddns.kuaiyun1.cn, port: 29760, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
-  - {name: 🇺🇸 美国05 专线-1B, server: cu1-zz.moonwang.xyz, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇸🇬 NETFLIX04 SG-1A, server: cm22-zz.moonwang.xyz, port: 38446, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇭🇰 香港2-1A, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
-  - {name: 🇺🇸 美国, server: nexiamg.688997.xyz, port: 20157, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiamg.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
-  - {name: 🇺🇸 美国1-1A, server: ddns.kuaiyun1.cn, port: 29760, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
-  - {name: 🇺🇸 美国-纽约-HY-001-1B, server: 45.136.245.177, port: 31008, type: hysteria2, password: 425c69fa-5645-4981-a22f-ad8e50e8f191, auth: 425c69fa-5645-4981-a22f-ad8e50e8f191, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
-  - {name: 🇺🇸 美国-纽约-001-1C, server: 45.136.245.177, port: 22085, type: vmess, uuid: 8a97c179-1fb1-45a3-9c32-4a378de088a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港-1A, server: nexiaxg.688997.xyz, port: 20057, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiaxg.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
-  - {name: 🇭🇰 香港03 专线-1B, server: cm22-zz.moonwang.xyz, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇭🇰 香港-线路1-1B, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 50c653e0-c40b-40a6-9bf6-47073479f090, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1E, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 67231331-277f-40cf-96b7-cfc4cd00a6fe, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ebb01bb7-d2d9-43da-b7aa-a37ecef0c027, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港02 专线-1A, server: cm33-zz.moonwang.xyz, port: 48446, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国07 国外专用-1B, server: us5.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇰🇷 韩国-1B, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7fb4a6fb-4a7e-4dd6-a5b3-286cde24e0bc, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-1D, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
-  - {name: 🇹🇭 泰国-1C, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
-  - {name: 🇯🇵 日本04 专线-1B, server: cm22-zz.moonwang.xyz, port: 28445, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-003-1B, server: 45.136.245.177, port: 25017, type: vmess, uuid: 425c69fa-5645-4981-a22f-ad8e50e8f191, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港-线路1-1I, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 63c88f95-a8a9-41a7-a872-b67a43f8e994, udp: true}
-  - {name: 🇭🇰 香港-线路1-1E, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 67231331-277f-40cf-96b7-cfc4cd00a6fe, udp: true}
-  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1H, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: e887ef41-9bad-4e68-8181-b47ac351b2b1, udp: true}
-  - {name: 🇭🇰 香港05 专线-1B, server: cm22-zz.moonwang.xyz, port: 40007, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇰🇷 韩国-1A, server: nexiahg.688997.xyz, port: 20357, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiahg.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
-  - {name: 🇺🇸 美国03 专线-1B, server: cu1-zz.moonwang.xyz, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇸🇬 新加坡2-1D, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1A, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 6711d5b4-a301-4133-974d-fbe38bc73b04, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3cc6ca60-8ade-4a59-a416-63a7f1b1961c, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1C, server: 45.136.245.177, port: 33079, type: hysteria2, password: 8a97c179-1fb1-45a3-9c32-4a378de088a6, auth: 8a97c179-1fb1-45a3-9c32-4a378de088a6, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
-  - {name: 🇰🇷 韩国-1C, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林-1K, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 46d6c66d-7d64-4d54-8479-76c5465162ed, udp: true}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1O, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cb9ec64c-40bb-42b5-a7a5-eab4b8e06305, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国05 专线-1A, server: cu1-zz.moonwang.xyz, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇺🇸 美国-纽约-HY-001-1A, server: 45.136.245.177, port: 31008, type: hysteria2, password: 82f83138-4eaf-433b-9ba8-13bca18ffca2, auth: 82f83138-4eaf-433b-9ba8-13bca18ffca2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
-  - {name: 🇺🇸 美国06 国外专用-1A, server: us4.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇺🇸 美国-纽约-HY-001-1D, server: 45.136.245.177, port: 31008, type: hysteria2, password: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, auth: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
-  - {name: 🇺🇸 美国02 专线-1B, server: cm22-zz.moonwang.xyz, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1Q, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 85e5a86f-b76d-4513-a7ea-d0d80966b844, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 NETFLIX02 HK-1B, server: cm33-zz.moonwang.xyz, port: 38444, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇰🇷 韩国-1E, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 NETFLIX02 HK-1A, server: cm33-zz.moonwang.xyz, port: 38444, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇮🇩 印度尼西亚-1B, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-002-1A, server: 45.136.245.177, port: 23133, type: vmess, uuid: 82f83138-4eaf-433b-9ba8-13bca18ffca2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇳🇱 荷兰, server: nexiahl.688997.xyz, port: 20457, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiahl.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
-  - {name: 🇺🇸 美国04 专线-1B, server: cm22-zz.moonwang.xyz, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-002-1E, server: 45.136.245.177, port: 23133, type: vmess, uuid: fb9cb629-e5a0-4669-8b6a-728e118e34c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港-线路1-1G, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: cc664d2b-4eb6-4127-9846-7bc8806b42e4, udp: true}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾01 专线-1A, server: cm22-zz.moonwang.xyz, port: 34111, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇯🇵 日本, server: nexiarb.688997.xyz, port: 20257, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiarb.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
-  - {name: 🇭🇰 NETFLIX03 HK-1A, server: cu1-zz.moonwang.xyz, port: 38445, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇭🇰 香港05 专线-1A, server: cm22-zz.moonwang.xyz, port: 40007, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇺🇸 美国1-1B, server: ddns.kuaiyun1.cn, port: 29760, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1R, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: fc01f086-17ad-44ef-bfab-23185a9fea78, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本02 专线-1B, server: cm33-zz.moonwang.xyz, port: 28444, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇬🇧 英国, server: nexiayg.688997.xyz, port: 20657, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiayg.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
-  - {name: 🇮🇩 印度尼西亚-1A, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
-  - {name: 🇭🇰 香港-线路1-1K, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 46d6c66d-7d64-4d54-8479-76c5465162ed, udp: true}
-  - {name: 🇸🇬 NETFLIX04 SG-1B, server: cm22-zz.moonwang.xyz, port: 38446, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇩 印度尼西亚-1D, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
-  - {name: 🇭🇰 香港NO.1, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港2-1B, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
-  - {name: 🇹🇼 NETFLIX01 TW-1A, server: cm33-zz.moonwang.xyz, port: 48444, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港2-1C, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
+  - {name: 🇮🇩 印度尼西亚-1B, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
   - {name: 🇰🇷 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a3ecadaf-a037-4fc0-8623-578f1371e195, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-线路1-1F, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 8838cf92-a25a-41c7-a4d0-864b3df251bd, udp: true}
-  - {name: 🇭🇰 香港-线路1-1D, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 651cf023-0122-4796-acad-b1a5706eaa75, udp: true}
-  - {name: 🇭🇰 香港-1F, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港-1E, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 55038a05-48d9-4277-b92d-9276b4187ede, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0040b459-02e8-408f-9612-ce09bdd400b9, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本04 专线-1A, server: cm22-zz.moonwang.xyz, port: 28445, type: ss, cipher: chacha20-ietf-poly1305, password: 5a573ab6-1a67-40a0-8009-7cc01d6f8486, udp: true}
-  - {name: 🇺🇸 美国01 专线-1B, server: cm22-zz.moonwang.xyz, port: 40002, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0665d2ea-dcf2-4d3c-8a2f-abbb8363a299, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本03 专线-1B, server: cm33-zz.moonwang.xyz, port: 18443, type: ss, cipher: chacha20-ietf-poly1305, password: 382302b2-5715-4773-b9fe-60be81dfca86, udp: true}
+  - {name: 🇮🇩 印度尼西亚-1D, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
+  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港NO.1, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-纽约-001-1B, server: 45.136.245.177, port: 22085, type: vmess, uuid: 82f83138-4eaf-433b-9ba8-13bca18ffca2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-纽约-HY-001-1B, server: 45.136.245.177, port: 31008, type: hysteria2, password: 82f83138-4eaf-433b-9ba8-13bca18ffca2, auth: 82f83138-4eaf-433b-9ba8-13bca18ffca2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: 🇹🇷 土耳其, server: nexiateq.688997.xyz, port: 20957, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiateq.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
+  - {name: 🇸🇬 新加坡2-1B, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
+  - {name: 🇭🇰 香港-线路1-1F, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 6711d5b4-a301-4133-974d-fbe38bc73b04, udp: true}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1C, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 3eb1c9dd-5ca6-4060-8e4d-dc10aabf2b2f, udp: true}
+  - {name: 🇭🇰 香港-线路1-1A, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 67231331-277f-40cf-96b7-cfc4cd00a6fe, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-002-1B, server: 45.136.245.177, port: 23133, type: vmess, uuid: 82f83138-4eaf-433b-9ba8-13bca18ffca2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇸🇬 新加坡2-1E, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: d650f875-0b80-41d7-9b3f-b2831d2a0135, udp: true}
+  - {name: 🇭🇰 香港-线路1-1D, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 333ef60f-4e78-4f1d-ae3c-b184e25fbf02, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1D, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 333ef60f-4e78-4f1d-ae3c-b184e25fbf02, udp: true}
+  - {name: 🇸🇬 新加坡-1E, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: d650f875-0b80-41d7-9b3f-b2831d2a0135, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-002-1C, server: 45.136.245.177, port: 23133, type: vmess, uuid: 425c69fa-5645-4981-a22f-ad8e50e8f191, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国1-1C, server: ddns.kuaiyun1.cn, port: 29760, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1V, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f448cfc6-4f6f-463b-9296-6447ef673aed, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 84195140-b2ff-4995-a5f8-c97d6b4b34e6, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1B, server: 45.136.245.177, port: 80, type: hysteria2, password: 82f83138-4eaf-433b-9ba8-13bca18ffca2, auth: 82f83138-4eaf-433b-9ba8-13bca18ffca2, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ%3D%3D, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1B, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 46d6c66d-7d64-4d54-8479-76c5465162ed, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dd1d90e9-874a-46bb-b05e-ec4241cf633d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国1-1A, server: ddns.kuaiyun1.cn, port: 29760, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
+  - {name: 🇭🇰 香港2-1E, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: d650f875-0b80-41d7-9b3f-b2831d2a0135, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1D, server: 45.136.245.177, port: 33079, type: hysteria2, password: 8a97c179-1fb1-45a3-9c32-4a378de088a6, auth: 8a97c179-1fb1-45a3-9c32-4a378de088a6, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1C, server: 45.136.245.177, port: 80, type: hysteria2, password: 425c69fa-5645-4981-a22f-ad8e50e8f191, auth: 425c69fa-5645-4981-a22f-ad8e50e8f191, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ%3D%3D, udp: true}
+  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-纽约-001-1D, server: 45.136.245.177, port: 22085, type: vmess, uuid: 8a97c179-1fb1-45a3-9c32-4a378de088a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇸🇬 新加坡-1D, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
+  - {name: 🇯🇵 日本2-1C, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
+  - {name: 🇯🇵 日本2-1B, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1G, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: cc664d2b-4eb6-4127-9846-7bc8806b42e4, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1E, server: 45.136.245.177, port: 80, type: hysteria2, password: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, auth: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ%3D%3D, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1E, server: 45.136.245.177, port: 33079, type: hysteria2, password: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, auth: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡2-1C, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
+  - {name: 🇭🇰 香港-1C, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
+  - {name: 🇹🇭 泰国-1E, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: d650f875-0b80-41d7-9b3f-b2831d2a0135, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1B, server: 45.136.245.177, port: 33079, type: hysteria2, password: 82f83138-4eaf-433b-9ba8-13bca18ffca2, auth: 82f83138-4eaf-433b-9ba8-13bca18ffca2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1L, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 50c653e0-c40b-40a6-9bf6-47073479f090, udp: true}
+  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-003-1D, server: 45.136.245.177, port: 25017, type: vmess, uuid: 8a97c179-1fb1-45a3-9c32-4a378de088a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-线路1-1M, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 54dc42f8-9712-4eae-a4ed-58604b73a672, udp: true}
+  - {name: 🇭🇰 香港-线路1-1H, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: e7435976-0cf9-4f98-9e4e-8f082c93ddcd, udp: true}
+  - {name: 🇰🇷 韩国-1E, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
+  - {name: 🇺🇸 美国, server: nexiamg.688997.xyz, port: 20157, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiamg.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
+  - {name: 🇭🇰 香港-1D, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇧🇷 巴西, server: nexiabx.688997.xyz, port: 20857, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiabx.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1C, server: 45.136.245.177, port: 33079, type: hysteria2, password: 425c69fa-5645-4981-a22f-ad8e50e8f191, auth: 425c69fa-5645-4981-a22f-ad8e50e8f191, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: 🇹🇭 泰国-1B, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-002-1D, server: 45.136.245.177, port: 23133, type: vmess, uuid: 8a97c179-1fb1-45a3-9c32-4a378de088a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇰🇷 韩国-1F, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: d650f875-0b80-41d7-9b3f-b2831d2a0135, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-003-1B, server: 45.136.245.177, port: 25017, type: vmess, uuid: 82f83138-4eaf-433b-9ba8-13bca18ffca2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-纽约-001-1A, server: 45.136.245.177, port: 22085, type: vmess, uuid: fb9cb629-e5a0-4669-8b6a-728e118e34c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇰🇷 韩国-1B, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
+  - {name: 🇺🇸 美国-纽约-HY-001-1A, server: 45.136.245.177, port: 31008, type: hysteria2, password: fb9cb629-e5a0-4669-8b6a-728e118e34c0, auth: fb9cb629-e5a0-4669-8b6a-728e118e34c0, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1E, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 63c88f95-a8a9-41a7-a872-b67a43f8e994, udp: true}
+  - {name: 🇩🇪 德国, server: nexiadg.688997.xyz, port: 20557, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiadg.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
+  - {name: 🇭🇰 香港-1F, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ebb01bb7-d2d9-43da-b7aa-a37ecef0c027, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本2-1D, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
+  - {name: 🇭🇰 香港-线路1-1K, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: e887ef41-9bad-4e68-8181-b47ac351b2b1, udp: true}
+  - {name: 🇭🇰 香港-1A, server: nexiaxg.688997.xyz, port: 20057, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiaxg.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
+  - {name: 🇭🇰 香港2-1D, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
+  - {name: 🇸🇬 新加坡2-1A, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
+  - {name: 🇬🇧 英国, server: nexiayg.688997.xyz, port: 20657, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiayg.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
+  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1A, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 67231331-277f-40cf-96b7-cfc4cd00a6fe, udp: true}
+  - {name: 🇺🇸 美国1-1D, server: ddns.kuaiyun1.cn, port: 29760, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1M, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 54dc42f8-9712-4eae-a4ed-58604b73a672, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1I, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 651cf023-0122-4796-acad-b1a5706eaa75, udp: true}
+  - {name: 🇺🇸 美国-纽约-001-1C, server: 45.136.245.177, port: 22085, type: vmess, uuid: 425c69fa-5645-4981-a22f-ad8e50e8f191, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇸🇬 新加坡-1A, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
+  - {name: 🇺🇸 美国1-1B, server: ddns.kuaiyun1.cn, port: 29760, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1H, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: e7435976-0cf9-4f98-9e4e-8f082c93ddcd, udp: true}
+  - {name: 🇭🇰 香港-1E, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
+  - {name: 🇹🇭 泰国-1C, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
+  - {name: 🇺🇸 美国-纽约-HY-001-1E, server: 45.136.245.177, port: 31008, type: hysteria2, password: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, auth: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: 🇰🇷 韩国-1C, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
+  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-纽约-001-1E, server: 45.136.245.177, port: 22085, type: vmess, uuid: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇸🇬 新加坡-1C, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
+  - {name: 🇹🇭 泰国-1D, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇳🇱 荷兰, server: nexiahl.688997.xyz, port: 20457, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiahl.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
+  - {name: 🇺🇸 美国-纽约-HY-001-1C, server: 45.136.245.177, port: 31008, type: hysteria2, password: 425c69fa-5645-4981-a22f-ad8e50e8f191, auth: 425c69fa-5645-4981-a22f-ad8e50e8f191, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: 🇭🇰 香港-1G, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: d650f875-0b80-41d7-9b3f-b2831d2a0135, udp: true}
+  - {name: 🇭🇰 香港-线路1-1J, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 8838cf92-a25a-41c7-a4d0-864b3df251bd, udp: true}
+  - {name: 🇯🇵 日本, server: nexiarb.688997.xyz, port: 20257, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiarb.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-002-1A, server: 45.136.245.177, port: 23133, type: vmess, uuid: fb9cb629-e5a0-4669-8b6a-728e118e34c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本2-1E, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: d650f875-0b80-41d7-9b3f-b2831d2a0135, udp: true}
+  - {name: 🇭🇰 香港-线路1-1L, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 50c653e0-c40b-40a6-9bf6-47073479f090, udp: true}
+  - {name: 🇹🇭 泰国-1A, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
+  - {name: 🇸🇬 新加坡2-1D, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: 9aa175c3-af2a-4319-b211-7748909a60cb, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-003-1C, server: 45.136.245.177, port: 25017, type: vmess, uuid: 425c69fa-5645-4981-a22f-ad8e50e8f191, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-线路1-1I, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 651cf023-0122-4796-acad-b1a5706eaa75, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1D, server: 45.136.245.177, port: 80, type: hysteria2, password: 8a97c179-1fb1-45a3-9c32-4a378de088a6, auth: 8a97c179-1fb1-45a3-9c32-4a378de088a6, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ%3D%3D, udp: true}
+  - {name: 🇭🇰 香港-1B, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
+  - {name: 🇭🇰 香港-线路1-1E, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 63c88f95-a8a9-41a7-a872-b67a43f8e994, udp: true}
+  - {name: 🇮🇩 印度尼西亚-1C, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-003-1E, server: 45.136.245.177, port: 25017, type: vmess, uuid: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港2-1A, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
+  - {name: 🇭🇰 香港-线路1-1G, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: cc664d2b-4eb6-4127-9846-7bc8806b42e4, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1A, server: 45.136.245.177, port: 33079, type: hysteria2, password: fb9cb629-e5a0-4669-8b6a-728e118e34c0, auth: fb9cb629-e5a0-4669-8b6a-728e118e34c0, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-003-1A, server: 45.136.245.177, port: 25017, type: vmess, uuid: fb9cb629-e5a0-4669-8b6a-728e118e34c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1F, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 6711d5b4-a301-4133-974d-fbe38bc73b04, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1A, server: 45.136.245.177, port: 80, type: hysteria2, password: fb9cb629-e5a0-4669-8b6a-728e118e34c0, auth: fb9cb629-e5a0-4669-8b6a-728e118e34c0, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ%3D%3D, udp: true}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇷🇺 俄罗斯, server: nexiaels.688997.xyz, port: 20757, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiaels.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇩 印度尼西亚-1E, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: d650f875-0b80-41d7-9b3f-b2831d2a0135, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1K, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: e887ef41-9bad-4e68-8181-b47ac351b2b1, udp: true}
+  - {name: 🇰🇷 韩国-1D, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
+  - {name: 🇺🇸 美国-纽约-HY-001-1D, server: 45.136.245.177, port: 31008, type: hysteria2, password: 8a97c179-1fb1-45a3-9c32-4a378de088a6, auth: 8a97c179-1fb1-45a3-9c32-4a378de088a6, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: 🇭🇰 香港2-1C, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: 1d60afbd-9118-4623-8fe0-4cf3a7c0509a, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-002-1E, server: 45.136.245.177, port: 23133, type: vmess, uuid: 99af8e8d-50a9-4f18-a7eb-dee02ce20475, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国1-1E, server: ddns.kuaiyun1.cn, port: 29760, type: ss, cipher: aes-256-gcm, password: d650f875-0b80-41d7-9b3f-b2831d2a0135, udp: true}
+  - {name: 🇮🇩 印度尼西亚-1A, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
+  - {name: 🇰🇷 韩国-1A, server: nexiahg.688997.xyz, port: 20357, type: hysteria2, password: c20fda50-d131-41e2-b228-a69a793a72f6, auth: c20fda50-d131-41e2-b228-a69a793a72f6, sni: nexiahg.688997.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D, udp: true}
+  - {name: 🇭🇰 香港-线路1-1B, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 46d6c66d-7d64-4d54-8479-76c5465162ed, udp: true}
+  - {name: 🇯🇵 日本2-1A, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: 32a30368-809e-40f6-939d-8bafc1e9c965, udp: true}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1J, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 8838cf92-a25a-41c7-a4d0-864b3df251bd, udp: true}
+  - {name: 🇭🇰 香港2-1B, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: d676d2f3-698b-434e-8d94-cf9d184996e1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-线路1-1C, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 3eb1c9dd-5ca6-4060-8e4d-dc10aabf2b2f, udp: true}
+  - {name: 🇸🇬 新加坡-1B, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: 2778dfd7-2884-4c55-9a40-6492e554e7af, udp: true}
